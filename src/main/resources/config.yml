@@ -1,0 +1,9 @@
+# Damaged items (tools, weapons, armor...) sell for less than new ones.
+# The price is scaled by the durability left on the item (50% durability left = 50% of the price),
+# but never drops below this percentage of the full price.
+damaged-minimum-percent: 10
+
+# Shulker boxes are sold together with everything inside them.
+# false (default): a shulker that holds an item with no price in prices.yml is NOT sold, so nothing is destroyed.
+# true: the shulker is sold anyway and the unpriced items inside are lost.
+shulker-sell-unsellable-contents: false
